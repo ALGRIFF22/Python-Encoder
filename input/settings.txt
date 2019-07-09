@@ -1,0 +1,16 @@
+-----output file path; make sure you change this to your directory:- example C:/your/project/folder/ -----
+output:=
+./output/
+----frames-per-second----
+fps:= 
+25
+---bitrate is in bytes a second (B/s) : 1kb = 1000b: 1mb = 1000000b etc...---
+bitrate:=
+1000000
+----video foramt - https://www.ffmpeg.org/general.html -----
+video_format:=
+.mp4
+----video resolution-----
+resolutions:=
+1920x1080, 640x360, 640x480
+-----------------------------
